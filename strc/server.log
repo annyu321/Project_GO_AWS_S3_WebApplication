@@ -1,0 +1,6 @@
+::1 - - [03/Apr/2022:17:21:08 -0400] "GET /create HTTP/1.1" 200 29
+::1 - - [03/Apr/2022:17:21:19 -0400] "GET /list HTTP/1.1" 200 47
+::1 - - [03/Apr/2022:17:21:34 -0400] "GET /list?bucketname=album-2022-3-30 HTTP/1.1" 200 11
+::1 - - [03/Apr/2022:17:21:37 -0400] "GET /list?bucketname=album-2022-3-30 HTTP/1.1" 200 11
+::1 - - [03/Apr/2022:17:25:47 -0400] "GET /upload?bucketname=album-2022-3-30&filename=aws_logo.png HTTP/1.1" 200 93
+::1 - - [03/Apr/2022:17:27:06 -0400] "GET /download?bucketname=album-2022-3-30&filename=aws_logo.png HTTP/1.1" 200 31
