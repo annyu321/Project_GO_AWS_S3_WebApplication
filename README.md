@@ -1,6 +1,6 @@
 # GO-AWS-S3-WebApplication
 ## Introduction
-This GO AWS S3 Web Application provides a variety of APIs to perform S3 bucket operations using AWS S3 SDK v1 and Go programming language. It uses the LoggingHandler middleware from the gorilla/handlers package to write logs to a file that records requests as the Apache Common Log Format.
+This GO AWS S3 Web Application provides a variety of APIs to perform S3 bucket operations using AWS S3 SDK v1 and Go programming language. It uses the LoggingHandler middleware from the gorilla/handlers package to log requests as the Apache Common Log Format.
 
 ## Web APIs
 ### Create
