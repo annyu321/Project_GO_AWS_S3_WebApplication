@@ -38,6 +38,8 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer logFile.Close()
+	
 	loggingHandler := newLoggingHandler(logFile)
 
 	//Create a new S3 bucket named as "album-Year-Month-Date"
